@@ -1,0 +1,297 @@
+CRITICAL - 2024-04-30 06:01:59 --> ErrorException: Undefined property: App\Controllers\Home::$load
+[Method: GET, Route: /]
+in APPPATH/Controllers/Home.php on line 11.
+ 1 APPPATH/Controllers/Home.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$load', '/Library/WebServer/Documents/tubig-website/app/Controllers/Home.php', 11)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-30 06:02:56 --> Error: Call to undefined function App\Controllers\url_ending_trailing_slash()
+[Method: GET, Route: /]
+in APPPATH/Controllers/Home.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-30 06:02:59 --> Error: Call to undefined function App\Controllers\url_ending_trailing_slash()
+[Method: GET, Route: /]
+in APPPATH/Controllers/Home.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-30 06:03:08 --> ErrorException: Undefined property: CodeIgniter\View\View::$load
+[Method: GET, Route: /]
+in APPPATH/Views/components/header.php on line 64.
+ 1 APPPATH/Views/components/header.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', '/Library/WebServer/Documents/tubig-website/app/Views/components/header.php', 64)
+ 2 SYSTEMPATH/View/View.php(234): include('/Library/WebServer/Documents/tubig-website/app/Views/components/header.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('components/header', [], true)
+ 5 APPPATH/Controllers/Home.php(33): view('components/header', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-30 06:03:16 --> ErrorException: Undefined property: CodeIgniter\View\View::$load
+[Method: GET, Route: /]
+in APPPATH/Views/components/header.php on line 64.
+ 1 APPPATH/Views/components/header.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', '/Library/WebServer/Documents/tubig-website/app/Views/components/header.php', 64)
+ 2 SYSTEMPATH/View/View.php(234): include('/Library/WebServer/Documents/tubig-website/app/Views/components/header.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('components/header', [], true)
+ 5 APPPATH/Controllers/Home.php(33): view('components/header', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-30 06:04:13 --> Error: Undefined constant "SKY_WEBFONTS_URL"
+[Method: GET, Route: /]
+in APPPATH/Views/components/fonts.php on line 7.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('components/fonts', [], true)
+ 4 APPPATH/Views/components/header.php(64): view('components/fonts')
+ 5 SYSTEMPATH/View/View.php(234): include('/Library/WebServer/Documents/tubig-website/app/Views/components/header.php')
+ 6 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('components/header', [], true)
+ 8 APPPATH/Controllers/Home.php(33): view('components/header', [...])
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-30 06:04:45 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "plugins/font_awesome.php"
+[Method: GET, Route: /]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('plugins/font_awesome.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('plugins/font_awesome', [], true)
+ 3 APPPATH/Views/components/header.php(68): view('plugins/font_awesome')
+ 4 SYSTEMPATH/View/View.php(234): include('/Library/WebServer/Documents/tubig-website/app/Views/components/header.php')
+ 5 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('components/header', [], true)
+ 7 APPPATH/Controllers/Home.php(33): view('components/header', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-30 06:06:47 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "__compiled_assets__/css/components/fontawesome.php"
+[Method: GET, Route: /]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('__compiled_assets__/css/components/fontawesome.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('__compiled_assets__/css/components/fontawesome', [], true)
+ 3 APPPATH/Views/components/header.php(68): view('__compiled_assets__/css/components/fontawesome')
+ 4 SYSTEMPATH/View/View.php(234): include('/Library/WebServer/Documents/tubig-website/app/Views/components/header.php')
+ 5 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('components/header', [], true)
+ 7 APPPATH/Controllers/Home.php(33): view('components/header', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-30 06:07:23 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "__compiled_assets__/css/components/fontawesome.php"
+[Method: GET, Route: /]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('__compiled_assets__/css/components/fontawesome.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('__compiled_assets__/css/components/fontawesome', [], true)
+ 3 APPPATH/Views/components/header.php(68): view('__compiled_assets__/css/components/fontawesome')
+ 4 SYSTEMPATH/View/View.php(234): include('/Library/WebServer/Documents/tubig-website/app/Views/components/header.php')
+ 5 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('components/header', [], true)
+ 7 APPPATH/Controllers/Home.php(33): view('components/header', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-30 06:07:27 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "__compiled_assets__/css/components/fontawesome.php"
+[Method: GET, Route: /]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('__compiled_assets__/css/components/fontawesome.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('__compiled_assets__/css/components/fontawesome', [], true)
+ 3 APPPATH/Views/components/header.php(68): view('__compiled_assets__/css/components/fontawesome')
+ 4 SYSTEMPATH/View/View.php(234): include('/Library/WebServer/Documents/tubig-website/app/Views/components/header.php')
+ 5 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('components/header', [], true)
+ 7 APPPATH/Controllers/Home.php(33): view('components/header', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-30 06:07:28 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "__compiled_assets__/css/components/fontawesome.php"
+[Method: GET, Route: /]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('__compiled_assets__/css/components/fontawesome.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('__compiled_assets__/css/components/fontawesome', [], true)
+ 3 APPPATH/Views/components/header.php(68): view('__compiled_assets__/css/components/fontawesome')
+ 4 SYSTEMPATH/View/View.php(234): include('/Library/WebServer/Documents/tubig-website/app/Views/components/header.php')
+ 5 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('components/header', [], true)
+ 7 APPPATH/Controllers/Home.php(33): view('components/header', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-30 06:07:29 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "__compiled_assets__/css/components/fontawesome.php"
+[Method: GET, Route: /]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('__compiled_assets__/css/components/fontawesome.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('__compiled_assets__/css/components/fontawesome', [], true)
+ 3 APPPATH/Views/components/header.php(68): view('__compiled_assets__/css/components/fontawesome')
+ 4 SYSTEMPATH/View/View.php(234): include('/Library/WebServer/Documents/tubig-website/app/Views/components/header.php')
+ 5 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('components/header', [], true)
+ 7 APPPATH/Controllers/Home.php(33): view('components/header', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-30 06:07:30 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "__compiled_assets__/css/components/fontawesome.php"
+[Method: GET, Route: /]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('__compiled_assets__/css/components/fontawesome.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('__compiled_assets__/css/components/fontawesome', [], true)
+ 3 APPPATH/Views/components/header.php(68): view('__compiled_assets__/css/components/fontawesome')
+ 4 SYSTEMPATH/View/View.php(234): include('/Library/WebServer/Documents/tubig-website/app/Views/components/header.php')
+ 5 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('components/header', [], true)
+ 7 APPPATH/Controllers/Home.php(33): view('components/header', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-30 06:07:30 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "__compiled_assets__/css/components/fontawesome.php"
+[Method: GET, Route: /]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('__compiled_assets__/css/components/fontawesome.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('__compiled_assets__/css/components/fontawesome', [], true)
+ 3 APPPATH/Views/components/header.php(68): view('__compiled_assets__/css/components/fontawesome')
+ 4 SYSTEMPATH/View/View.php(234): include('/Library/WebServer/Documents/tubig-website/app/Views/components/header.php')
+ 5 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('components/header', [], true)
+ 7 APPPATH/Controllers/Home.php(33): view('components/header', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-30 06:07:30 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "__compiled_assets__/css/components/fontawesome.php"
+[Method: GET, Route: /]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('__compiled_assets__/css/components/fontawesome.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('__compiled_assets__/css/components/fontawesome', [], true)
+ 3 APPPATH/Views/components/header.php(68): view('__compiled_assets__/css/components/fontawesome')
+ 4 SYSTEMPATH/View/View.php(234): include('/Library/WebServer/Documents/tubig-website/app/Views/components/header.php')
+ 5 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('components/header', [], true)
+ 7 APPPATH/Controllers/Home.php(33): view('components/header', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-30 06:07:30 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "__compiled_assets__/css/components/fontawesome.php"
+[Method: GET, Route: /]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('__compiled_assets__/css/components/fontawesome.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('__compiled_assets__/css/components/fontawesome', [], true)
+ 3 APPPATH/Views/components/header.php(68): view('__compiled_assets__/css/components/fontawesome')
+ 4 SYSTEMPATH/View/View.php(234): include('/Library/WebServer/Documents/tubig-website/app/Views/components/header.php')
+ 5 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('components/header', [], true)
+ 7 APPPATH/Controllers/Home.php(33): view('components/header', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-30 06:07:30 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "__compiled_assets__/css/components/fontawesome.php"
+[Method: GET, Route: /]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('__compiled_assets__/css/components/fontawesome.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('__compiled_assets__/css/components/fontawesome', [], true)
+ 3 APPPATH/Views/components/header.php(68): view('__compiled_assets__/css/components/fontawesome')
+ 4 SYSTEMPATH/View/View.php(234): include('/Library/WebServer/Documents/tubig-website/app/Views/components/header.php')
+ 5 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('components/header', [], true)
+ 7 APPPATH/Controllers/Home.php(33): view('components/header', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-30 06:08:37 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "__compiled_assets__/css/components/owl.php"
+[Method: GET, Route: /]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('__compiled_assets__/css/components/owl.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('__compiled_assets__/css/components/owl', [], true)
+ 3 APPPATH/Views/components/header.php(68): view('__compiled_assets__/css/components/owl')
+ 4 SYSTEMPATH/View/View.php(234): include('/Library/WebServer/Documents/tubig-website/app/Views/components/header.php')
+ 5 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('components/header', [], true)
+ 7 APPPATH/Controllers/Home.php(33): view('components/header', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-30 06:10:13 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "__compiled_assets__/css/components/left-panel.php"
+[Method: GET, Route: /]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('__compiled_assets__/css/components/left-panel.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('__compiled_assets__/css/components/left-panel', [], true)
+ 3 APPPATH/Views/components/header.php(68): view('__compiled_assets__/css/components/left-panel')
+ 4 SYSTEMPATH/View/View.php(234): include('/Library/WebServer/Documents/tubig-website/app/Views/components/header.php')
+ 5 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('components/header', [], true)
+ 7 APPPATH/Controllers/Home.php(33): view('components/header', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-30 06:10:18 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "__compiled_assets__/css/components/left-panel.php"
+[Method: GET, Route: /]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('__compiled_assets__/css/components/left-panel.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('__compiled_assets__/css/components/left-panel', [], true)
+ 3 APPPATH/Views/components/header.php(68): view('__compiled_assets__/css/components/left-panel')
+ 4 SYSTEMPATH/View/View.php(234): include('/Library/WebServer/Documents/tubig-website/app/Views/components/header.php')
+ 5 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('components/header', [], true)
+ 7 APPPATH/Controllers/Home.php(33): view('components/header', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
